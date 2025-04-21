@@ -1,0 +1,8 @@
+1. Install Angular Language Service
+2. File package.json chưa các thư viện (dependencies)
+3. File trang chủ:
+    index.html
+        - <app-root> component
+        - 1 thẻ được cấu thành từ 3 file: html + scss + spec.ts
+
+Tạo component: ng generate component home - Tạo 1 component home
