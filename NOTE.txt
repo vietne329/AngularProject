@@ -6,3 +6,11 @@
         - 1 thẻ được cấu thành từ 3 file: html + scss + spec.ts
 
 Tạo component: ng generate component home - Tạo 1 component home
+
+4. Install bootstrap:npm i bootstrap@5.3.5
+5. Sau khi cài bootstrap. Ta thêm thư viện này vào file config "angular.json": tìm
+  đến thẻ style của sourceRoot": "src",
+              "styles": [
+                "src/styles.scss",
+                "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              ],
